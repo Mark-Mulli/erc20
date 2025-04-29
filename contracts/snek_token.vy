@@ -1,7 +1,8 @@
-# pragma version ^0.4.1
+# pragma version 0.4.1
 
 from pcaversaccio.snekmate.src.snekmate.auth import ownable as ow
 from pcaversaccio.snekmate.src.snekmate.tokens import erc20
+
 
 initializes: ow
 initializes: erc20[ownable := ow]
@@ -21,3 +22,5 @@ def __init__():
     
 
 
+# pcaversaccio.snekmate.src.snekmate.auth
+# pcaversaccio.snekmate.src.snekmate.tokens
