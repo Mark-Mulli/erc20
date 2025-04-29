@@ -1,4 +1,4 @@
-# pragma version 0.4.1
+# pragma version ^0.4.1
 
 from pcaversaccio.snekmate.src.snekmate.auth import ownable as ow
 from pcaversaccio.snekmate.src.snekmate.tokens import erc20
