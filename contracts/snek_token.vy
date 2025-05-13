@@ -1,5 +1,12 @@
 # pragma version 0.4.1
 
+"""
+@license MIT
+@title snek_token
+@author MarkMulli
+@notice This is my EERC20 token!
+"""
+
 from pcaversaccio.snekmate.src.snekmate.auth import ownable as ow
 from pcaversaccio.snekmate.src.snekmate.tokens import erc20
 
@@ -20,7 +27,3 @@ def __init__():
 
 
     
-
-
-# pcaversaccio.snekmate.src.snekmate.auth
-# pcaversaccio.snekmate.src.snekmate.tokens
