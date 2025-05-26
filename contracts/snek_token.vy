@@ -41,3 +41,11 @@ def __init__(initial_supply: uint256):
     ow.__init__()
     erc20.__init__(NAME, SYMBOL, DECIMALS, NAME, EIP712_VERSION)
     erc20._mint(msg.sender, initial_supply)
+
+@external
+def burned(amount: uint256):
+    """
+    @notice Burns a specific amount of tokens from the caller's account.
+    @param amount The amount of tokens to burn.
+    """
+    erc20._burn(msg.sender, amount)
