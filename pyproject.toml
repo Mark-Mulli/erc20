@@ -9,6 +9,8 @@ dependencies = [
     "moccasin>=0.4.0",
 ]
 
+
 [tool.moccasin.project]
 src = "contracts"
 dependencies = ["pcaversaccio/snekmate"]
+

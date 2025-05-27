@@ -1,0 +1,5 @@
+[networks.buildBear]
+url = "$BUILDBEAR_RPC_URL"
+prompt_live = false
+save_to_db = false
+default_account_name = "buildBear"
